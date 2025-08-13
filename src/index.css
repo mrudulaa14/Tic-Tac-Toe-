@@ -1,0 +1,34 @@
+/* Import a cool font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Define our color palette and other variables */
+:root {
+  --background-color: #1a1a2e;
+  --primary-color: #16213e;
+  --secondary-color: #0f3460;
+  --accent-color: #e94560;
+  --font-color: #ffffff;
+  --x-color: #4fbdbA;
+  --o-color: #f7b801;
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --border-radius: 12px;
+  --transition-speed: 0.3s;
+}
+
+/* Basic reset and body styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
